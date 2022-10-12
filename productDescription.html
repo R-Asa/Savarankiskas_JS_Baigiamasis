@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./productDescription_styles.css" />
+
+    <title>CA_FrontEnd_Baigiamasis-darbas_10-10-2022</title>
+</head>
+
+<body>
+    <!-- Base URL = https://6344475bdcae733e8fdbe146.mockapi.io/BikesShop -->
+
+    <!-- 3. Sukurti puslapį kuris atvaizduos detaliai prekę.
+        Puslapyje turi būti pateikiama visa prekės informaciją. 
+        Iš šio puslapio turi būti galimą ištrinti prekę. 
+        2sek. po ištrinimo turi atsirasti užrašas, kuris informuos, 
+        kad prekė buvo pašalinta iš katalogo. 
+        Taip pat puslapyje turi būti mygtukas kuris gražins i
+        visų prekių katalogą.
+    -->
+
+    <section class="product-wrapper" id="product-wrapper">
+
+        <div id="addProductTitle">
+            <h3 id="addProductText">Informacija apie prekę</h3>
+            <div id="backLinks">
+                <a href="./index.html">Grįžti į prekių katalogą</a>
+                <a href="./addProductForm.html">Pridėti prekę į katalogą</a>
+            </div>
+        </div>
+
+        <!-- <div id="productCard">
+
+            <div id="productPicture">
+                <img src="./cd31c1bc-53c9-3da6-999f-01307e5d7e4e.webp" alt="Product picture">
+            </div>
+                
+            <div id="productDeleteButton">
+                <button id="deleteButton"></button>
+            </div>
+
+            <div id="productInfo">
+
+                <div id="productName">
+                    <h1 id="textProductName">Mocas Pavadinimas</h1>
+                </div>
+
+                <div id="productLocation">
+                    <h3 id="textProductLocation">Vilnius</h3>
+                </div>
+
+                <div id="productPrice">
+                    <h2 id="textProductPrice">2,50 €</h2>
+                </div>
+
+            </div>
+
+            <div id="productDescription">
+                <p id="textProductDescription">Oj, koks mocas, bla bla bla</p>
+            </div>
+
+        </div> -->
+    </section>
+
+    <br>
+
+    <div id="productDeleteNotification">
+        <h4></h4>
+    </div>
+
+    <script src="./productDescription_script.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', 'Tahoma', 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+#add-product-wrapper {
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+#addProductTitle {
+    width: 100%;
+    background-color: rgb(245, 237, 237);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#addProductText {
+    font-weight: 600px;
+    font-size: 16px;
+    color: #339900;
+    padding-left: 20px;
+}
+
+a {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    color: #339900;
+    text-decoration: none;
+}
+
+#addButton {
+    width: 30%;
+    background-color: white;
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#productAddNotification {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./addProductForm_styles.css" />
+
+    <title>CA_FrontEnd_Baigiamasis-darbas_10-10-2022</title>
+</head>
+
+<body>
+    <!-- Base URL = https://6344475bdcae733e8fdbe146.mockapi.io/BikesShop -->
+
+    <!-- 4. Sukurti puslapį kuris atvaizduos formą kurioje galima bus pridėti naują prekę. 
+        Puslapis turi būti pasiekiamas iš pagrindinio katalogo puslapio. 
+        Kuomet prekės informacija bus įkelta sėkmingai, 
+        formos apačioje turi atsirasti tekstas, kuris informuos vartotoją, 
+        kad prekė įkelta sėkmingai. 
+        Puslapis turi turėti mygtuką kuris gražina į pagrindinį katalogą.
+        * Nuotraukos url gali būti paimamos iš google photos.
+    -->
+
+    <section class="add-product-wrapper" id="add-product-wrapper">
+
+        <div id="addProductTitle">
+            <h3 id="addProductText">Pridėti prekę į katalogą</h3>
+            <a href="./index.html">Grįžti į prekių katalogą</a>
+        </div>
+
+        <!-- <form id="addProductForm">
+            <input id="addProductName" type="text" name="text" placeholder="Prekės pavadinimas">
+            <input id="addProductPrice" type="number" name="number" placeholder="Prekės kaina">
+            <input id="addProductImg" type="url" name="url" placeholder="Prekės nuotraukos nuoroda">
+            <input id="addProductDescription" type="text" name="text" placeholder="Prekės aprašymas">
+            <input id="addProductLocation" type="text" name="text" placeholder="Miestas">
+            
+            <button id="addButton" type="submit">Pridėti prekę</button>
+        </form> -->
+    </section>
+
+    <br>
+
+    <div id="productAddNotification">
+        <h4></h4>
+    </div>
+
+
+    <script src="./addProductForm_script.js" defer></script>
+
+</body>
+
+</html>
